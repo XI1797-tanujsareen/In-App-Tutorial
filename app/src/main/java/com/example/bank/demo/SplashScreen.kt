@@ -8,7 +8,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.example.bank.demo.databinding.SplashScreenBinding
 import com.example.bank.demo.ui.login.LoginActivity
-import kotlinx.android.synthetic.main.splash_screen.*
 
 class SplashScreen: AppCompatActivity() {
 
@@ -18,7 +17,7 @@ class SplashScreen: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         splashScreenBinding = DataBindingUtil.setContentView(this,R.layout.splash_screen)
 
-        buttonLogin?.setOnClickListener {
+        splashScreenBinding?.buttonLogin?.setOnClickListener {
             Handler(Looper.getMainLooper()).postDelayed({
                 startActivity(Intent(this, LoginActivity::class.java))
             },1000)
