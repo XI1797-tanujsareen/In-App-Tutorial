@@ -12,4 +12,5 @@
     <string name="m_pin">MPIN</string>
     <string name="login_string">Login</string>
     <string name="home_string">Home Screen</string>
+    <string name="userid">USER ID</string>
 </resources>

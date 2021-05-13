@@ -45,7 +45,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="42dp"
             android:gravity="center"
-            android:text="This is the login screen where you have to add your credentials that is being provided on your Email ID."
+            android:text="User ID is your customer ID that is provided you at the time of registration with Mpin (Mobile Pin)"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

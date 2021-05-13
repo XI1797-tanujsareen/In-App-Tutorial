@@ -224,7 +224,7 @@ class LoginActivity : AppCompatActivity(), SensorEventListener, ICallBackSheet {
         bundle.putString("header", "Login Screen")
         bundle.putString(
             "description",
-            "This screen will validates your credentials which is sent to your Email-ID"
+            "User ID is your customer ID that is provided you at the time of registration with Mpin (Mobile Pin)"
         )
         customBottomSheetGuide.arguments = bundle
 
